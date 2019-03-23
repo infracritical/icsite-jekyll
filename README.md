@@ -3,6 +3,8 @@
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 [U.S. Web Design System](https://designsystem.digital.gov).
 
+### (modified for infracritical; r1.1)
+
 ## Table of contents
 1. [Installation](#installation)
     - [Development](#development)
@@ -47,7 +49,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    like so:
 
     ```ruby
-    gem 'uswds-jekyll'
+    gem 'infracritical/uswds-jekyll'
     ```
 
 1. Fetch and update your bundled gems by running:
@@ -74,7 +76,7 @@ You will need to restart your Jekyll server to see the effects.
 1. Replace the default `gem "minima", "~> 2.0"` gem with the `uswds-jekyll` gem in your `Gemfile`:
 
     ```ruby
-    gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
+    gem 'infracritical/uswds-jekyll', :git => 'https://github.com/infracritical/uswds-jekyll.git'
     ```
 
 1. Set the `theme` in your site's Jekyll configuration,
@@ -102,7 +104,7 @@ To develop this theme and/or test it locally:
    `Gemfile` to point at the local clone of this repo:
 
     ```ruby
-    gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
+    gem 'infracritical/uswds-jekyll', :path => '../path/to/uswds-jekyll'
     ```
 ### Publish to Rubygems
 1. Update `spec.version = "NUMBER HERE"` in the uswds-jekyll.gemspec file to the version you want to publish
@@ -116,12 +118,12 @@ To develop this theme and/or test it locally:
 
 To reference a specific version of this plugin:
 
-1. Visit the [releases page](https://github.com/18F/uswds-jekyll/releases) and
+1. Visit the [releases page](https://github.com/infracritical/uswds-jekyll/releases) and
    decide which version you want to use.
 1. Specify the version in your `Gemfile`.
 
     ```ruby
-    gem 'uswds-jekyll', '1.4.1'
+    gem 'infracritical/uswds-jekyll', '1.4.1'
     ```
 
 ## Configuration
@@ -635,7 +637,7 @@ name: Team member name
 image: /path/to/image.ext
 job_title: Team member job title
 phone: 123-456-7890
-email: email@address.gov
+email: email@address.com
 ```
 
 To show a listing of team members on a page add `{% include team-list.html %} to the page`
