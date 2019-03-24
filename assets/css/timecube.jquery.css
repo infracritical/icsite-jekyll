@@ -25,7 +25,7 @@ a#next-link {
 	background: url(../assets/img/next.png);
 	background-repeat: no-repeat;
 	background-position: 10px 0px;
-	position: absolute;
+	position: relative;
 	left: 535px;
 	color: rgba(0,0,0,0.1);
 	-webkit-transition-property: opacity;
@@ -45,7 +45,7 @@ a#prev-link {
 	background-repeat: no-repeat;
 	background-position: 10px 0px;
 	z-index: 9;
-	position: absolute;
+	position: relative;
 	left: 0px;
 	color: rgba(0,0,0,0.1);
 	-webkit-transition-property: opacity;
@@ -182,7 +182,7 @@ a#prev-link.active, a#prev-link.disabled {
 	display: block;
 }
 #swipe {
-	position: absolute;
+	position: relative;
 	z-index: 999;
 	bottom: 15px;
 	left: 197px;
