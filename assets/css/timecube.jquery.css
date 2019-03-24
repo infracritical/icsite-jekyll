@@ -22,7 +22,7 @@ a#next-link {
 	width: 65px;
 	height: 60px;
 	z-index: 9;
-	background: url(../assets/img/next.png);
+	background: url(/assets/img/next.png);
 	background-repeat: no-repeat;
 	background-position: 10px 0px;
 	position: relative;
@@ -41,7 +41,7 @@ a#prev-link {
 	width: 65px;
 	height: 60px;
 	display: block;
-	background: url(../assets/img/prev.png);
+	background: url(/assets/img/prev.png);
 	background-repeat: no-repeat;
 	background-position: 10px 0px;
 	z-index: 9;
@@ -188,7 +188,7 @@ a#prev-link.active, a#prev-link.disabled {
 	left: 197px;
 	width: 203px;
 	height: 50px;
-	background: url(../assets/img/swipe.png);
+	background: url(/assets/img/swipe.png);
 }
 hr {
 	height: 1px;
