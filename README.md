@@ -4,6 +4,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 [U.S. Web Design System](https://designsystem.digital.gov).
 
 ### (modified for infracritical; r1.1)
+[NOTE: Copy "ic-logo-web.png" under "/assets/img" to "/src/assets/images" for processing.]
 
 ## Table of contents
 1. [Installation](#installation)
