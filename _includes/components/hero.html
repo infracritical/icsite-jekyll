@@ -9,7 +9,8 @@
 
 <section class="usa-hero logohdr1"{% if hero.image %}
   style="width:1202px; height:257px; background-image: url('{{ hero.image | relative_url }}')"{% endif %}>
-  <div class="usa-grid">
+<!-- removed 15-aug-2020 entire callout / button sections -->
+<!--  <div class="usa-grid">
     <div class="usa-hero-callout usa-section-dark">
       {% if hero.callout %}
       <h2>
@@ -35,13 +36,13 @@
       </a>
       {% endif %}
     </div>
-  </div>
+  </div> -->
 </section>
 
 <!-- added 15-aug-2020 differentiation between desktop v. mobile graphics -->
 <section class="usa-hero logohdr2"{% if hero.image %}
   style="width:375px; height:257px; background-image: url('{{ hero.image | relative_url }}')"{% endif %}>
-  <div class="usa-grid">
+<!--  <div class="usa-grid">
     <div class="usa-hero-callout usa-section-dark">
       {% if hero.callout %}
       <h2>
@@ -67,6 +68,6 @@
       </a>
       {% endif %}
     </div>
-  </div>
+  </div> -->
 </section>
 {% endif %}
