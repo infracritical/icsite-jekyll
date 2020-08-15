@@ -1,5 +1,6 @@
 {% if hero %}
 
+{% if hero.image %}
 <section class="usa-hero" style="background-image: url('{{ hero.image | relative_url }}')">{% endif %}
   <div class="usa-grid">
     <div class="usa-hero-callout usa-section-dark">
