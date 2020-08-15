@@ -12,7 +12,7 @@
   style="width:1202px; height:257px; background-image: url('/assets/images/scidmark-logo-14aug2020-v2.png')">
 {% endif %}
 
-{% if hero.image %}
+{% if hero.image and ! hero.scidmark %}
 <section class="usa-hero" style="background-image: url('{{ hero.image | relative_url }}')">
 <!-- altered 15-aug-2020 entire callout / button sections -->
 <!-- added 15-aug-2020 added logic for here.scidmark -->
